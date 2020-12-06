@@ -31,16 +31,16 @@ class Game {
 
     car1 = createSprite(100,200);
     car1.addImage(car1Img);
-    car1Img.scale(0.5);
+    car1.scale = 0.5;
     car2 = createSprite(300,200);
     car2.addImage(car2Img);
-    car2Img.scale(0.5);
+    car2.scale = 0.5;
     car3 = createSprite(500,200);
     car3.addImage(car3Img);
-    car3Img.scale(0.5);
+    car3.scale = 0.5;
     car4 = createSprite(700,200);
     car4.addImage(car4Img);
-    car4Img.scale(0.5);
+    car4.scale =0.5;
     cars = [car1, car2, car3, car4];
   }
 
